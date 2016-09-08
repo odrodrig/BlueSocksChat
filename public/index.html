@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket.IO Chat Example</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script></head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+          <div class="form">
+            <h3 class="title">What's your nickname?</h3>
+            <input class="usernameInput" type="text" maxlength="14" />
+          </div>
+          <div class="dropdownForm">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose Language
+            <span class="caret"></span></button>
+            <ul id="dropdown-menu" name="dropdown-menu" class="dropdown-menu">
+              <li id="dropInput" class="dropInput"> <a href="#">English</a></li>
+              <li id="dropInput" class="dropInput"> <a href="#">Español</a></li>
+              <li id="dropInput" class="dropInput"> <a href="#">Français</a></li>
+              <li id="dropInput" class="dropInput"> <a href="#">Português</a></li>
+              <li id="dropInput" class="dropInput"> <a href="#">العربية</a></li>
+            </ul>
+          </div> 
+
+    </li>
+  </ul>
+</body>
+</html>
