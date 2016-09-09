@@ -1,17 +1,16 @@
+declared-services:
+  language-translation:
+    label: language_translation
+    plan:  standard
+  tone-analyzer:
+    label: tone_analyzer
+    plan:  standard
 applications:
 - path: .
   services:
-    - Language Translation
-    - Tone Analyzer
+    - language-translation
+    - tone-analyzer
   memory: 256M
   instances: 1
   domain: mybluemix.net
   disk_quota: 1024M
-
-declared-services:
-  Language Translation:
-    label: Language Translation
-    plan:  standard
-  Tone Analyzer:
-    label: Tone Analyzer
-    plan:  standard
