@@ -1,8 +1,17 @@
 applications:
 - path: .
+  services:
+    - Language Translation
+    - Tone Analyzer
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: BlueSocksChat
-  host: bluesockschat
   disk_quota: 1024M
+
+declared-services:
+  Language Translation:
+    label: Language Translation
+    plan:  standard
+  Tone Analyzer:
+    label: Tone Analyzer
+    plan:  standard
