@@ -6,12 +6,10 @@ The Blue Socks Chat application is a chat application using Socket.io, IBM Bluem
 
 
 
-###The Application
-
 ###How to Use
 
 Once in the application, choose a nickname that will appear to other users and select the language you are fluent in (English is the default).
-To translate, start your message with "/translate <language>" replacing <language> with the language you want to translate to. For example, if I wanted to translate "Hi my name is Oliver" to spanish, I would type "/translate spanish Hello my name is Oliver" and the translated spanish output would be sent to the chat room.
+To translate, start your message with "/translate 'language'" replacing 'language' with the language you want to translate to. For example, if I wanted to translate "Hi my name is Oliver" to spanish, I would type "/translate spanish Hello my name is Oliver" and the translated spanish output would be sent to the chat room.
 
 ###The Services
 
@@ -24,6 +22,7 @@ To translate, start your message with "/translate <language>" replacing <languag
 ##Instructions
 
 To get the application deployed, start by clicking on the button below. This will open up the "Deploy to Bluemix" page.
+
 1. This tool requires a Bluemix account so you will need to either create one or log in with your existing account.
 2. Start by creating a unique name for your application. For example, if my name is John Smith, I'd use jsBluesocks
 3. and verifying the bluemix information.
