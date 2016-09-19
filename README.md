@@ -29,3 +29,9 @@ To get the application deployed, start by clicking on the button below. This wil
 4. If everything is correct, click Deploy.
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/odrodrig/BlueSocksChat.git)
+
+##Credits
+Base socket chat application is from the socket.io chat example found [here](https://github.com/socketio/socket.io)
+Tone Analyzer and SockBot implementation built by [Stefania Kaczmarczyk](https://github.com/slkaczma)
+Language Translation implemented by [Oliver Rodriguez](https://github.com/odrodrig)
+
