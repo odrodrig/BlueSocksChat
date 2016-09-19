@@ -2,6 +2,11 @@
 
 //------------------------------------------------------------------------------
 // node.js starter application for Bluemix
+
+// Blue Socks Chat Application Authors
+// This application is based off of the socket.io chat example seen here (https://github.com/socketio/socket.io)
+// Watson Tone Analyzer and SockBot implementation built by Stefania Kacmarczyk (https://github.com/slkaczma)
+// Language Translation implemented by Oliver Rodriguez (https://github.com/odrodrig)
 //------------------------------------------------------------------------------
 
 var express = require('express');
